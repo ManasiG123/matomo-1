@@ -11,7 +11,7 @@
  */
 
 if (!defined('PIWIK_USER_PATH')) {
-    define('PIWIK_USER_PATH', PIWIK_DOCUMENT_ROOT);
+    define('PIWIK_USER_PATH', '/var');
 }
 
 error_reporting(E_ALL);
